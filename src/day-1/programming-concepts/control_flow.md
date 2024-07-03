@@ -76,32 +76,7 @@ fn main() {
 }
 ```
 
-### Returning values from loops
 
-In Rust, you can return values from loops using the `return` statement.
-
-```rust
-fn main() {
-    let mut sum = 0;
-
-    loop {
-        let input = std::io::stdin().read_line(&mut String::new())
-            .expect("Failed to read line");
-
-        if input.trim() == "quit" {
-            break;
-        }
-
-        let num: u32 = input.trim().parse()
-            .expect("Please type a number!");
-
-        sum += num;
-
-    }
-
-    println!("The sum is: {sum}");
-}
-```
 
 ### Loop labels to disambiguate between multiple loops
 
