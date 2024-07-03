@@ -6,9 +6,8 @@ In Rust, `if` expressions are used to branch code depending on conditions. The b
 
 ```rust
 fn main() {
-    let number = 3;
     if condition {
-        // code block for datisfied condition
+        // code block for satisfied condition
     } else {
         // code block for unsatisfied condition
     }
