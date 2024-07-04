@@ -23,4 +23,5 @@ In this Day, we’ll talk about ownership as well as several related features: b
 - The Slice Type
   - String Slices
   - String Literals as Slices
+  - Other Slices
   
