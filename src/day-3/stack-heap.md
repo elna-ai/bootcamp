@@ -30,17 +30,20 @@ Here’s a breakdown of the different types of memory in Rust:
 
 
 ### Examples:
-- **Stack Allocation:**
-  ```rust
-  fn main() {
-      let x = 5;
-      let y = x; // Both x and y are on the stack
-  }
-  ```
 
-- **Heap Allocation:**
-  ```rust
-  fn main() {
-      let s = String::from("hello"); // s is on the heap
-  }
-  ```
+####Stack Allocation:
+
+```rust
+fn main() {
+  let x = 5;
+  let y = x; // Both x and y are on the stack
+}
+```
+
+#### Heap Allocation:
+
+```rust
+fn main() {
+  let s = String::from("hello"); // s is on the heap
+}
+```

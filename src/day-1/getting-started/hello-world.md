@@ -4,13 +4,13 @@
 Let us jump into the simplest possible Rust program, a classic Hello World
 program:
 
-```rust,editable
+```rust
 fn main() {
-    println!("Hello World!");
+  println!("Hello World!");
 }
 ```
 
-What you see:
+#### What you see:
 
 - Functions are introduced with `fn`.
 - Blocks are delimited by curly braces like in C and C++.
@@ -18,9 +18,6 @@ What you see:
 - Rust has hygienic macros, `println!` is an example of this.
 - Rust strings are UTF-8 encoded and can contain any Unicode character.
 
-<details>
-  <summary>Click to see the links</summary>
+##### References
 
 [RUST book](https://doc.rust-lang.org/book/ch01-02-hello-world.html)
-
-</details>

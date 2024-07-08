@@ -28,23 +28,19 @@ The types have widths as follows:
 - `bool` is 8 bits wide.
 
 ```rust
-
 fn main() {
   let x = 2.0; // f64
 
   let y: f32 = 3.0; // f32
 }
-
 ```
 
 ```rust
-
 fn main() {
   let t = true;
 
   let f: bool = false; // with explicit type annotation
 }
-
 
 ```
 
@@ -53,7 +49,6 @@ fn main() {
 Rust supports the basic mathematical operations: addition, subtraction, multiplication, division, and remainder.
 
 ```rust
-
 fn main() {
   // addition
   let sum = 5 + 10;
@@ -81,70 +76,63 @@ fn main() {
 Compound types can group multiple values into one type. Rust has two primitive compound types: tuples and arrays.
 
 1. **The Tuple Type:**
-   
-    tuple is a general way of grouping together a number of values with a variety of types into one compound type. Tuples have a fixed length: once declared, they cannot grow or shrink in size.
 
-    ```rust
+tuple is a general way of grouping together a number of values with a variety of types into one compound type. Tuples have a fixed length: once declared, they cannot grow or shrink in size.
 
-    fn main() {
-      let tup: (i32, f64, u8) = (500, 6.4, 1);
-    }
-    ```
-    `Destructuring of Tuple`
+```rust
+fn main() {
+  let tup: (i32, f64, u8) = (500, 6.4, 1);
+}
+```
 
-    ```rust 
+Destructuring of Tuple
 
-    fn main() {
-      let tup = (500, 6.4, 1);
-      let (x, y, z) = tup;
-      println!("The value of y is: {y}");
-      }
+```rust 
+fn main() {
+  let tup = (500, 6.4, 1);
+  let (x, y, z) = tup;
+  println!("The value of y is: {y}");
+}
+```
 
-    
-    ```
+We can also access a tuple element directly by using a period `(.)` followed by the index of the value we want to access. 
 
-    We can also access a tuple element directly by using a period `(.)` followed by the index of the value we want to access. 
-
-    For example:
+For example:
 
 
-      ```rust
-
-      fn main() {
-        let x: (i32, f64, u8) = (500, 6.4, 1);
-
-        let five_hundred = x.0;
-
-        let six_point_four = x.1;
-
-        let one = x.2;
-        }
-
-      ```
+```rust
+fn main() {
+  let x: (i32, f64, u8) = (500, 6.4, 1);
+  
+  let five_hundred = x.0;
+  
+  let six_point_four = x.1;
+  
+  let one = x.2;
+}
+```
 
 2. **Array Type**
 
-    Unlike a tuple, every element of an `array` must have the same type. Unlike arrays in some other languages, arrays in Rust have a fixed length.
+Unlike a tuple, every element of an *array* must have the same type. Unlike arrays in some other languages, arrays in Rust have a fixed length.
 
-    We write the values in an array as a comma-separated list inside `square brackets`:
+We write the values in an array as a comma-separated list inside *square brackets*:
 
-    ```rust
-    fn main() {
-        let a = [1, 2, 3, 4, 5];
-    }
-    ```
+```rust
+fn main() {
+  let a = [1, 2, 3, 4, 5];
+}
+```
 
-  An array is a single chunk of memory of a known, fixed size that can be allocated on the stack. You can access elements of an array using indexing, like this:
+An array is a single chunk of memory of a known, fixed size that can be allocated on the stack. You can access elements of an array using indexing, like this:
 
-
-  ```rust
-  fn main() {
-    let a = [1, 2, 3, 4, 5];
-    let first = a[0];
-    let second = a[1];
-    }
-  ```
-
+```rust
+fn main() {
+  let a = [1, 2, 3, 4, 5];
+  let first = a[0];
+  let second = a[1];
+}
+```
 
 <details>
 
