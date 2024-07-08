@@ -1,9 +1,6 @@
 site_name: Elna Rust Bootcamp
 site_description: This page is used for the ELNA Rust bootcamp
 site_url: https://elna-ai.github.com/bootcamp
-repo_name: https://github.com/elna-ai/bootcamp
-repo_url: https://github.com/elna-ai/bootcamp
-edit_uri: "https://github.com/elna-ai/bootcamp"
 
 docs_dir: src
 
@@ -19,10 +16,6 @@ theme:
     - navigation.instant.progress
     - navigation.top
     - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
   
 markdown_extensions:
   - toc:
