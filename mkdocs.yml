@@ -1,0 +1,74 @@
+site_name: Elna Improvement Proposals
+site_description: Elna Improvement Proposals
+site_url: https://elna-ai.github.com/EIPs
+repo_name: https://github.com/elna-ai/EIPs
+repo_url: https://github.com/elna-ai/EIPs
+edit_uri: "https://github.com/elna-ai/EIPs"
+
+nav:
+  - Home: index.md
+  - EIP-0: EIP-0.md
+  - EIP-1: EIP-1.md
+  - EIP-2: EIP-2.md
+  - EIP-3: EIP-3.md
+
+theme:
+  name: material
+  features:
+    # - navigation.tabs
+    - navigation.tracking
+    - navigation.sections
+    # - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  icon:
+  repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/elna-ai/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/elna-ai
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/elna-ai/
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/elna-ai"  target="_blank" rel="noopener">ELNA-Ai</a>
