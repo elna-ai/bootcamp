@@ -4,6 +4,46 @@ site_url: https://elna-ai.github.com/bootcamp
 
 docs_dir: src
 
+nav:
+  - HOME: 'index.md'
+
+  - 'Day 1':
+    - 'What is rust': 'day-1/getting-started/what-is-rust.md'
+    - 'Benefits of rust': 'day-1/getting-started/benefits.md'
+    - 'Rust ecosystem': 'day-1/getting-started/rust-ecosystem.md'
+    - 'Rust playground': 'day-1/getting-started/playground.md'
+    - 'Running locally': 'day-1/getting-started/running-locally.md'
+    - 'Hello World': 'day-1/getting-started/hello-world.md'
+
+  - 'Day 2':
+    - 'Variables & Mutability': 'day-2/programming-concepts/variables-mutability.md'
+    - 'Datatypes': 'day-2/programming-concepts/data-types.md'
+    - 'Functions': 'day-2/programming-concepts/functions.md'
+    - 'Comments': 'day-2/programming-concepts/comments.md'
+    - 'Control Flow': 'day-2/programming-concepts/control_flow.md'
+    - 'Exercise': 'day-2/programming-concepts/task.md'
+
+  - 'Day 3':
+    - 'Stack & Heap': 'day-3/stack-heap.md'
+    - 'Ownership': 'day-3/ownership.md'
+    - 'References & Borrowing': 'day-3/References_and_Borrowing.md'
+    - 'Slice type': 'day-3/slice_type.md'
+
+  - 'Day 4':
+    - 'Struct': 'day-4/struct.md'
+    - 'Enums & Pattern matching': 'day-4/enum.md'
+
+  - 'Day 5':
+    - 'Packages & Crates': 'day-5/packages_and_crates.md'
+
+  - 'Day 6':
+    - 'Colections': 'day-6/collections.md'
+
+  - 'Day 7':
+    - 'Traits': 'day-7/traits.md'
+    - 'Commandline': 'day-7/cli.md'
+    - 'Tests': 'day-7/test.md'
+
 theme:
   name: dracula
   font:

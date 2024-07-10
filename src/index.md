@@ -2,8 +2,8 @@
 
 ### Day 1
   - [What is rust](day-1/getting-started/what-is-rust.md)
-  - [Rust ecosystem](day-1/getting-started/rust-ecosystem.md)
   - [Benefits of rust](day-1/getting-started/benefits.md)
+  - [Rust ecosystem](day-1/getting-started/rust-ecosystem.md)
   - [Rust playground](day-1/getting-started/playground.md)
   - [Hello World](day-1/getting-started/hello-world.md)
   - [Running locally](day-1/getting-started/running-locally.md)
