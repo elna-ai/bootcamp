@@ -7,7 +7,7 @@ In Rust, a string slice is a reference to a contiguous sequence of elements in a
 Example:
 ```rust
 let s = "hello";
-let hello = &s[0..5];
+let hello = &s[0..4];
 println!("{}", hello); // Output: "hello"
 ```
 In this example, `hello` is a string slice that references the first 5 characters of the string `s`.
@@ -19,8 +19,8 @@ String literals can be treated as slices. This means you can use the same syntax
 Example:
 ```rust
 let hello = "hello";
-let world = &hello[6..11];
-println!("{}", world); // Output: "world"
+let world = &hello[1..4];
+println!("{}", world); // Output: "ello"
 ```
 In this example, `world` is a string slice that references the characters 6-10 of the string literal `"hello"`.
 
