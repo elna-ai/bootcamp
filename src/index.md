@@ -14,6 +14,7 @@
   - [Datatypes](day-2/programming-concepts/data-types.md)
   - [Functions](day-2/programming-concepts/functions.md)
   - [Control flow](day-2/programming-concepts/control_flow.md)
+  - [Exercise](day-2/programming-concepts/task.md)
 
 ### Day 3
   - [Slice type](day-3/slice_type.md)
