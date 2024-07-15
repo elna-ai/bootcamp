@@ -65,6 +65,7 @@ pub fn sow(seeds: Vec<SeedPacket>) {
 pub fn harvest(garden: &mut Garden) {
     todo!()
 }
+
 ```
 #### Details
 - Before Rust 2018, modules needed to be located at `module/mod.rs` instead of
@@ -75,17 +76,17 @@ pub fn harvest(garden: &mut Garden) {
 
 - Deeper nesting can use folders, even if the main module is a file:
 
-  ```
-  src/
-  ├── main.rs
-  ├── top_module.rs
-  └── top_module/
-      └── sub_module.rs
-  ```
+```
+src/
+├── main.rs
+├── top_module.rs
+└── top_module/
+    └── sub_module.rs
+```
 
 - The place rust will look for modules can be changed with a compiler directive:
 
-  ```rust,ignore
+  ```rust
   #[path = "some/path.rs"]
   mod some_module;
   ```
