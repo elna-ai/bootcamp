@@ -86,10 +86,10 @@ src/
 
 - The place rust will look for modules can be changed with a compiler directive:
 
-  ```rust
-  #[path = "some/path.rs"]
-  mod some_module;
-  ```
+```rust
+#[path = "some/path.rs"]
+mod some_module;
+```
 
   This is useful, for example, if you would like to place tests for a module in
   a file named `some_module_test.rs`, similar to the convention in Go.
