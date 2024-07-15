@@ -35,6 +35,7 @@ nav:
 
   - 'Day 5':
     - 'Packages & Crates': 'day-5/packages_and_crates.md'
+    - 'Modules': 'day-5/modules.md'
 
   - 'Day 6':
     - 'Colections': 'day-6/collections.md'
