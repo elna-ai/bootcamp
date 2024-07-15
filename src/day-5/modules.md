@@ -75,7 +75,7 @@ pub fn harvest(garden: &mut Garden) {
 
 - Deeper nesting can use folders, even if the main module is a file:
 
-  ```ignore
+  ```
   src/
   ├── main.rs
   ├── top_module.rs
