@@ -44,6 +44,9 @@ nav:
     - 'Traits': 'day-7/traits.md'
     - 'Commandline': 'day-7/cli.md'
     - 'Tests': 'day-7/test.md'
+  - 'Day 9':
+    - 'Introduction to ICP': 'day-9/introduction-to-ic.md'
+
 
 theme:
   name: dracula
