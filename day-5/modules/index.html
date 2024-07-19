@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Modules - Elna Rust Bootcamp</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <link rel="canonical" href="https://elna-ai.github.com/bootcamp/day-5/modules/">
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Elna Rust Bootcamp</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    HOME
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#day-1-collapse" aria-expanded="false">
+                    Day 1
+                </a>
+                <div class="collapse" id="day-1-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-1/getting-started/what-is-rust/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            What is rust
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-1/getting-started/benefits/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Benefits of rust
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-1/getting-started/rust-ecosystem/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Rust ecosystem
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-1/getting-started/playground/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Rust playground
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-1/getting-started/running-locally/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Running locally
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-1/getting-started/hello-world/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Hello World
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#day-2-collapse" aria-expanded="false">
+                    Day 2
+                </a>
+                <div class="collapse" id="day-2-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-2/programming-concepts/variables-mutability/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Variables & Mutability
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-2/programming-concepts/data-types/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Datatypes
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-2/programming-concepts/functions/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Functions
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-2/programming-concepts/comments/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Comments
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-2/programming-concepts/control_flow/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Control Flow
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-2/programming-concepts/task/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Exercise
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#day-3-collapse" aria-expanded="false">
+                    Day 3
+                </a>
+                <div class="collapse" id="day-3-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-3/stack-heap/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Stack & Heap
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-3/ownership/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Ownership
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-3/References_and_Borrowing/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            References & Borrowing
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-3/slice_type/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Slice type
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#day-4-collapse" aria-expanded="false">
+                    Day 4
+                </a>
+                <div class="collapse" id="day-4-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-4/struct/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Struct
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-4/enum/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Enums & Pattern matching
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#day-5-collapse" aria-expanded="false">
+                    Day 5
+                </a>
+                <div class="collapse" id="day-5-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../packages_and_crates/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Packages & Crates
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Modules
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#day-6-collapse" aria-expanded="false">
+                    Day 6
+                </a>
+                <div class="collapse" id="day-6-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-6/collections/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Colections
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#day-7-collapse" aria-expanded="false">
+                    Day 7
+                </a>
+                <div class="collapse" id="day-7-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-7/traits/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Traits
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-7/cli/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Commandline
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-7/test/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Tests
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#day-9-collapse" aria-expanded="false">
+                    Day 9
+                </a>
+                <div class="collapse" id="day-9-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../../day-9/introduction-to-ic/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Introduction to ICP
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../packages_and_crates/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../../day-6/collections/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="modules">Modules</h1>
+<p>We have seen how <code>impl</code> blocks let us namespace functions to a type.</p>
+<p>Similarly, <code>mod</code> lets us namespace types and functions:</p>
+<pre><code class="language-rust">mod foo {
+    pub fn do_something() {
+        println!(&quot;In the foo module&quot;);
+    }
+}
+
+mod bar {
+    pub fn do_something() {
+        println!(&quot;In the bar module&quot;);
+    }
+}
+
+fn main() {
+    foo::do_something();
+    bar::do_something();
+}
+</code></pre>
+<ul>
+<li>Packages provide functionality and include a <code>Cargo.toml</code> file that describes
+  how to build a bundle of 1+ crates.</li>
+<li>Crates are a tree of modules, where a binary crate creates an executable and a
+  library crate compiles to a library.</li>
+<li>Modules define organization, scope, and are the focus of this section.</li>
+</ul>
+<h1 id="filesystem-hierarchy">Filesystem Hierarchy</h1>
+<p>Omitting the module content will tell Rust to look for it in another file:</p>
+<pre><code class="language-rust">mod garden;
+</code></pre>
+<p>This tells rust that the <code>garden</code> module content is found at <code>src/garden.rs</code>.
+Similarly, a <code>garden::vegetables</code> module can be found at
+<code>src/garden/vegetables.rs</code>.</p>
+<p>The <code>crate</code> root is in:</p>
+<ul>
+<li><code>src/lib.rs</code> (for a library crate)</li>
+<li><code>src/main.rs</code> (for a binary crate)</li>
+</ul>
+<p>Modules defined in files can be documented, too, using "inner doc comments".
+These document the item that contains them -- in this case, a module.</p>
+<pre><code class="language-rust">//! This module implements the garden, including a highly performant germination
+//! implementation.
+
+// Re-export types from this module.
+pub use garden::Garden;
+pub use seeds::SeedPacket;
+
+/// Sow the given seed packets.
+pub fn sow(seeds: Vec&lt;SeedPacket&gt;) {
+    todo!()
+}
+
+/// Harvest the produce in the garden that is ready.
+pub fn harvest(garden: &amp;mut Garden) {
+    todo!()
+}
+
+</code></pre>
+<h4 id="details">Details</h4>
+<ul>
+<li>
+<p>Before Rust 2018, modules needed to be located at <code>module/mod.rs</code> instead of
+  <code>module.rs</code>, and this is still a working alternative for editions after 2018.</p>
+</li>
+<li>
+<p>The main reason to introduce <code>filename.rs</code> as alternative to <code>filename/mod.rs</code>
+  was because many files named <code>mod.rs</code> can be hard to distinguish in IDEs.</p>
+</li>
+<li>
+<p>Deeper nesting can use folders, even if the main module is a file:</p>
+</li>
+</ul>
+<pre><code>src/
+├── main.rs
+├── top_module.rs
+└── top_module/
+    └── sub_module.rs
+</code></pre>
+<ul>
+<li>The place rust will look for modules can be changed with a compiler directive:</li>
+</ul>
+<pre><code class="language-rust">#[path = &quot;some/path.rs&quot;]
+mod some_module;
+</code></pre>
+<p>This is useful, for example, if you would like to place tests for a module in
+  a file named <code>some_module_test.rs</code>, similar to the convention in Go.</p>
+<h1 id="visibility">Visibility</h1>
+<p>Modules are a privacy boundary:</p>
+<ul>
+<li>Module items are private by default (hides implementation details).</li>
+<li>Parent and sibling items are always visible.</li>
+<li>In other words, if an item is visible in module <code>foo</code>, it's visible in all the
+  descendants of <code>foo</code>.</li>
+</ul>
+<pre><code class="language-rust">mod outer {
+    fn private() {
+        println!(&quot;outer::private&quot;);
+    }
+
+    pub fn public() {
+        println!(&quot;outer::public&quot;);
+    }
+
+    mod inner {
+        fn private() {
+            println!(&quot;outer::inner::private&quot;);
+        }
+
+        pub fn public() {
+            println!(&quot;outer::inner::public&quot;);
+            super::private();
+        }
+    }
+}
+
+fn main() {
+    outer::public();
+}
+</code></pre>
+<h4 id="details_1">Details</h4>
+<ul>
+<li>Use the <code>pub</code> keyword to make modules public.</li>
+</ul>
+<p>Additionally, there are advanced <code>pub(...)</code> specifiers to restrict the scope of
+public visibility.</p>
+<ul>
+<li>See the
+  <a href="https://doc.rust-lang.org/reference/visibility-and-privacy.html#pubin-path-pubcrate-pubsuper-and-pubself">Rust Reference</a>.</li>
+<li>Configuring <code>pub(crate)</code> visibility is a common pattern.</li>
+<li>Less commonly, you can give visibility to a specific path.</li>
+<li>In any case, visibility must be granted to an ancestor module (and all of its
+  descendants).</li>
+</ul>
+<h1 id="use-super-self">use, super, self</h1>
+<p>A module can bring symbols from another module into scope with <code>use</code>. You will
+typically see something like this at the top of each module:</p>
+<pre><code class="language-rust">use std::collections::HashSet;
+use std::process::abort;
+</code></pre>
+<h2 id="paths">Paths</h2>
+<p>Paths are resolved as follows:</p>
+<ol>
+<li>As a relative path:</li>
+<li><code>foo</code> or <code>self::foo</code> refers to <code>foo</code> in the current module,</li>
+<li>
+<p><code>super::foo</code> refers to <code>foo</code> in the parent module.</p>
+</li>
+<li>
+<p>As an absolute path:</p>
+</li>
+<li><code>crate::foo</code> refers to <code>foo</code> in the root of the current crate,</li>
+<li><code>bar::foo</code> refers to <code>foo</code> in the <code>bar</code> crate.</li>
+</ol>
+<h4 id="details_2">Details</h4>
+<ul>
+<li>It is common to "re-export" symbols at a shorter path. For example, the
+  top-level <code>lib.rs</code> in a crate might have</li>
+</ul>
+<p>```rust
+  mod storage;</p>
+<p>pub use storage::disk::DiskStorage;
+  pub use storage::network::NetworkStorage;
+  ```</p>
+<p>making <code>DiskStorage</code> and <code>NetworkStorage</code> available to other crates with a
+  convenient, short path.</p>
+<ul>
+<li>
+<p>For the most part, only items that appear in a module need to be <code>use</code>'d.
+  However, a trait must be in scope to call any methods on that trait, even if a
+  type implementing that trait is already in scope. For example, to use the
+  <code>read_to_string</code> method on a type implementing the <code>Read</code> trait, you need to
+  <code>use std::io::Read</code>.</p>
+</li>
+<li>
+<p>The <code>use</code> statement can have a wildcard: <code>use std::io::*</code>. This is discouraged
+  because it is not clear which items are imported, and those might change over
+  time.</p>
+</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../..';</script>
+        <script src="../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../assets/js/mkdocs.js"></script>
+			<script src="../../search/main.js" defer></script>
+
+</body>
+
+</html>
